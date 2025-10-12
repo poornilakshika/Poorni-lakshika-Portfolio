@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Poorni Lakshika</title>
+  <meta name="description" content="Poorni Lakshika —  MIS undergraduate at NSBM focusing on database management, business intelligence, systems analysis, project management, and information systems security. Explore projects in Power BI dashboards, enterprise solutions, and data-driven decision making." />
+" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Poorni Lakshika — & MIS Undergraduate | Data, Systems & Business Technology Portfolio">
+  <meta property="og:description" content="Secure Share • Voice-Authenticated Login • Exam Proctoring Concept • Firebase • Kotlin • Offensive/Defensive Security">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="about.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Font Awesome -->
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- JSON-LD: Person -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Poorni Lakshika",
+    "jobTitle":"MIS Student & Data, Systems & Business Technology Portfolio ",
+    "email":"mailt:Vithanagevpl20@gmail.com",
+    "telephone":"+94714237328",
+    "image":"about.jpg",
+    "alumniOf":{"@type":"CollegeOrUniversity","name":"NSBM Green Univercity"},
+    "knowsAbout":["Management Information Systems","Database Management","Business Intelligence","Data Analysis","Systems Analysis & Design","Project Management"],
+    "url":""
+  }
+  </script>
+</head>
+<body>
+ 
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="logo" href="#home" aria-label="Go to home">
+        <i class="fas fa-shield-alt" aria-hidden="true"></i> <span>Poorni Lakshika</span>
+      </a>
+
+      <nav class="nav" id="nav" role="navigation" aria-label="Primary">
+  <a href="about.html"><i class="fas fa-user" aria-hidden="true"></i> About</a>
+  <a href="skills.html"><i class="fas fa-code" aria-hidden="true"></i> Skills</a>
+  <a href="projects.html"><i class="fas fa-project-diagram" aria-hidden="true"></i> Projects</a>
+  <a href="education.html"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Education</a>
+  <a href="contact.html"><i class="fas fa-envelope" aria-hidden="true"></i> Contact</a>
+  <a class="cta" href="contact.html"><i class="fas fa-handshake" aria-hidden="true"></i> Hire / Contact</a>
+      </nav>
+
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation" aria-controls="nav" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-card">
+          <img src="about.jpg" alt="Portrait of Poorni Lakshika" class="avatar" />
+        </div>
+        <div class="hero-copy">
+          <h1>Hi, I'm <span class="accent">Poorn iLakshika</span></h1>
+          <p class="lead">
+            <p class="lead">
+  <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+  BSc (Special) Information Technology — <strong>Specialising in Management Information Systems</strong> at NSBM (Sri Lanka).<br>
+  <i class="fas fa-database" aria-hidden="true"></i>
+  Designing efficient information systems and improving business processes using data analysis, database management, and IT best practices.<br>
+  <i class="fas fa-chart-line" aria-hidden="true"></i>
+  Supporting decision-making with business intelligence, systems analysis, and project management.
+</p>
+
+
+        <ul class="quick-stats" aria-label="Highlights">
+  <li><i class="fas fa-database"></i> Database Management (SQL / MySQL)</li>
+  <li><i class="fas fa-chart-pie"></i> Business Intelligence & Data Analysis (Power BI)</li>
+  <li><i class="fas fa-project-diagram"></i> Systems Analysis & Project Management</li>
+  <li><i class="fas fa-lock"></i> Information Systems Security & Risk Management</li>
+  <li><i class="fas fa-laptop-code"></i> Python & Web Development (HTML, CSS, JS)</li>
+  <li><i class="fas fa-users"></i> Teamwork, Communication & Leadership</li>
+  <li><i class="fas fa-chart-line"></i> Enterprise Systems & Decision Support</li>
+  <li><i class="fas fa-robot"></i> Emerging Tech: AI & Automation</li>
+</ul>
+
+
+
+          <p class="meta">
+            <i class="fas fa-location-dot"></i> Sri Lanka
+            &nbsp;•&nbsp; <i class="fas fa-envelope"></i> <a href="mailto:vithanagevpl20@gmail.com">vithanagevpl20@gmail.com</a>
+            &nbsp;•&nbsp; <i class="fas fa-phone"></i> <a href="tel:+94771863032">+94 714237328</a>
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn" href="projects.html"><i class="fas fa-eye"></i> See Projects</a>
+            <a class="btn ghost" href="https://github.com/PoorniLakshika" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+            <a class="btn ghost" href="https://www.linkedin.com/in/PoorniLakshika/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>© <span id="year"></span> Poorni Lakshika — Built with ❤️</p>
+    </div>
+  </footer>
+
+  <script>
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Mobile nav toggle (accessible)
+    const navToggle = document.getElementById('navToggle');
+    const nav = document.getElementById('nav');
+    navToggle.addEventListener('click', () => {
+      const expanded = navToggle.getAttribute('aria-expanded') === 'true';
+      navToggle.setAttribute('aria-expanded', String(!expanded));
+      nav.classList.toggle('open');
+    });
+
+    // Smooth scroll for anchor links (optional)
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const id = a.getAttribute('href');
+        if (id.length > 1) {
+          e.preventDefault();
+          document.querySelector(id).scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
